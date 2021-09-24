@@ -16,17 +16,7 @@ class AutorController extends Controller
     {
         //
     }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
+    
     /**
      * Store a newly created resource in storage.
      *
@@ -45,17 +35,6 @@ class AutorController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show(Autor $autor)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Autor  $autor
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Autor $autor)
     {
         //
     }
