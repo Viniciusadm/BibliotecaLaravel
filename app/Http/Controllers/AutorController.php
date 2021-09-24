@@ -14,7 +14,7 @@ class AutorController extends Controller
      */
     public function index()
     {
-        //
+        return Autor::all();
     }
     
     /**
@@ -25,7 +25,8 @@ class AutorController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $autor = Autor::create($request->all());
+        return $autor;
     }
 
     /**
@@ -36,7 +37,7 @@ class AutorController extends Controller
      */
     public function show(Autor $autor)
     {
-        //
+        return $autor;
     }
 
     /**

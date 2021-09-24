@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Editora extends Model
 {
     use HasFactory;
+    protected $fillable = ['nome', 'site', 'localizacao'];
 }

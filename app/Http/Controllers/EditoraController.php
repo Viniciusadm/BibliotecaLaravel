@@ -14,7 +14,7 @@ class EditoraController extends Controller
      */
     public function index()
     {
-        //
+        return Editora::all();
     }
 
     /**
@@ -25,7 +25,8 @@ class EditoraController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $editora = Editora::create($request->all());
+        return $editora;
     }
 
     /**
@@ -36,7 +37,7 @@ class EditoraController extends Controller
      */
     public function show(Editora $editora)
     {
-        //
+        return $editora;
     }
 
     /**
